@@ -9,9 +9,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Orb</title>
     <style>
-      html, body { margin: 0; padding: 0; min-height: 100vh; background: #000000; }
+      /* A STAND-IN until the app runs: AppShell paints the shell's letterbox
+         grey (app-shell-react design.ts LETTERBOX) behind the page from its
+         first render. These are that pair, so first paint is already the
+         ground the app will keep. */
+      html, body { margin: 0; padding: 0; min-height: 100vh; background: #e8e8e8; }
+      @media (prefers-color-scheme: dark) { html, body { background: #111; } }
     </style>
-    <script type="module" crossorigin src="./assets/index-DggIHppK.js"></script>
+    <script type="module" crossorigin src="./assets/index-BkqqIbQh.js"></script>
   <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
   <body>
     <div id="root"></div>
