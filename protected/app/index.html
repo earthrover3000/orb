@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Orb</title>
     <style>
-      /* A STAND-IN until the app runs: AppShell paints the shell's letterbox
-         grey (app-shell-react design.ts LETTERBOX) behind the page from its
-         first render. These are that pair, so first paint is already the
-         ground the app will keep. */
-      html, body { margin: 0; padding: 0; min-height: 100vh; background: #e8e8e8; }
-      @media (prefers-color-scheme: dark) { html, body { background: #111; } }
+      /* A STAND-IN until the app runs: the shell paints the document the
+         app SURFACE (app-shell-react windowBands.ts useSurfaceChrome — the
+         phone's top and bottom strips, and theme-color above) from its
+         first render. These are that pair (design.ts SHELL_THEME bg), so
+         first paint is already the ground the app will keep. */
+      html, body { margin: 0; padding: 0; min-height: 100vh; background: #ffffff; }
+      @media (prefers-color-scheme: dark) { html, body { background: #1e1e1e; } }
     </style>
-    <script type="module" crossorigin src="./assets/index-D0b6DbHN.js"></script>
+    <script type="module" crossorigin src="./assets/index-rfG8GuGL.js"></script>
   <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
