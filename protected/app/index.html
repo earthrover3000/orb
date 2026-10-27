@@ -17,9 +17,36 @@
       html, body { margin: 0; padding: 0; min-height: 100vh; background: #ffffff; }
       @media (prefers-color-scheme: dark) { html, body { background: #1e1e1e; } }
     </style>
-    <script type="module" crossorigin src="./assets/index-DGzSar_2.js"></script>
+    <script type="module" crossorigin src="./assets/index-BKeaSZOE.js"></script>
+    <script>
+      try {
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.getRegistration().then(function (r) {
+            if (!r) return;
+            var found = function () {
+              if (!navigator.serviceWorker.controller) return;
+              window.__laUpdateFound = true;
+              window.dispatchEvent(new Event("la-update-found"));
+            };
+            r.addEventListener("updatefound", found);
+            if (r.installing || r.waiting) found();
+            r.update().catch(function () {});
+          });
+        }
+      } catch (e) {}</script>
   <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
+    <div id="la-boot-label" role="status" style="position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;color:#8a8a8a;font-family:sans-serif;font-size:15px;font-weight:400;pointer-events:none"></div>
+    <script>
+      try {
+        var laCarry = sessionStorage.getItem("la-veil-carry");
+        if (laCarry) {
+          var laLabel = document.getElementById("la-boot-label");
+          laLabel.textContent = laCarry;
+          laLabel.style.display = "flex";
+        }
+      } catch (e) {}</script>
+
     <div id="root"></div>
   </body>
 </html>
