@@ -66,6 +66,12 @@
   "asset": true
  },
  {
+  "glyph": "🔍",
+  "cps": "1f50d",
+  "count": 3,
+  "asset": true
+ },
+ {
   "glyph": "🌡️",
   "cps": "1f321-fe0f",
   "count": 2,
@@ -96,20 +102,14 @@
   "asset": true
  },
  {
-  "glyph": "📱",
-  "cps": "1f4f1",
+  "glyph": "📲",
+  "cps": "1f4f2",
   "count": 2,
   "asset": true
  },
  {
   "glyph": "🔄",
   "cps": "1f504",
-  "count": 2,
-  "asset": true
- },
- {
-  "glyph": "🔍",
-  "cps": "1f50d",
   "count": 2,
   "asset": true
  },
@@ -258,8 +258,8 @@
   "asset": true
  },
  {
-  "glyph": "📲",
-  "cps": "1f4f2",
+  "glyph": "📱",
+  "cps": "1f4f1",
   "count": 1,
   "asset": true
  },
