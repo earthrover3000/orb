@@ -14,18 +14,18 @@
  {
   "glyph": "✔️",
   "cps": "2714-fe0f",
-  "count": 27,
-  "asset": true
- },
- {
-  "glyph": "🎯",
-  "cps": "1f3af",
-  "count": 7,
+  "count": 28,
   "asset": true
  },
  {
   "glyph": "🍳",
   "cps": "1f373",
+  "count": 6,
+  "asset": true
+ },
+ {
+  "glyph": "🎯",
+  "cps": "1f3af",
   "count": 6,
   "asset": true
  },
@@ -242,12 +242,6 @@
  {
   "glyph": "📌",
   "cps": "1f4cc",
-  "count": 1,
-  "asset": true
- },
- {
-  "glyph": "📒",
-  "cps": "1f4d2",
   "count": 1,
   "asset": true
  },
