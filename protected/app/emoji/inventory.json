@@ -1,20 +1,20 @@
 [
  {
+  "glyph": "⭐",
+  "cps": "2b50",
+  "count": 32,
+  "asset": true
+ },
+ {
   "glyph": "🧪",
   "cps": "1f9ea",
   "count": 31,
   "asset": true
  },
  {
-  "glyph": "⭐",
-  "cps": "2b50",
-  "count": 31,
-  "asset": true
- },
- {
   "glyph": "✔️",
   "cps": "2714-fe0f",
-  "count": 28,
+  "count": 27,
   "asset": true
  },
  {
